@@ -4,7 +4,7 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <header className='h-[40px]'></header>
-      <main className='flex-1 overflow-y-scroll'>{children}</main>
+      <main className='flex-1 overflow-y-auto'>{children}</main>
       <Footer />
     </>
   );
