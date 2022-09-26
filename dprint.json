@@ -1,0 +1,25 @@
+{
+  "lineWidth": 120,
+  "indentWidth": 2,
+  "typescript": {
+    "quoteStyle": "alwaysSingle",
+    "arrowFunction.useParentheses": "force",
+    "jsx.quoteStyle": "preferSingle",
+    "module.sortImportDeclarations": "maintain"
+  },
+  "json": {},
+  "includes": [
+    "**/*.{ts,tsx,js,jsx,cjs,mjs,json}"
+  ],
+  "excludes": [
+    ".next",
+    "**/node_modules",
+    "**/*-lock.json",
+    "build",
+    "dist"
+  ],
+  "plugins": [
+    "dprint/typescript-0.73.2.wasm",
+    "dprint/json-0.15.6.wasm"
+  ]
+}
